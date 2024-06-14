@@ -1,0 +1,26 @@
+﻿transformers
+ctranslate2>=4.2.1
+git+https://github.com/openai/whisper.git
+ffmpeg-python==0.2.0
+gradio==3.50.2
+yt-dlp
+torchaudio
+altair
+json5
+zhconv
+sentencepiece
+
+# Needed by diarization
+intervaltree
+srt
+torch
+https://github.com/pyannote/pyannote-audio/archive/refs/heads/develop.zip
+
+# Needed by ALMA-GPTQ
+accelerate
+auto-gptq
+optimum
+# Needed by ALMA-GGUL
+ctransformers[cuda]
+# Needed by load_in_4bit parameters in transformers
+bitsandbytes
